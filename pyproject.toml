@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-AV-LatentSync"
+description = "LatentSync 1.5 wrapper for ComfyUI"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["diffusers", "transformers", "huggingface-hub", "omegaconf", "einops", "opencv-python", "mediapipe", "face-alignment", "decord", "ffmpeg-python", "safetensors", "soundfile"]
+
+[project.urls]
+Repository = "https://github.com/avenstack/ComfyUI-AV-LatentSync"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "avenstack"
+DisplayName = "ComfyUI-AV-LatentSync"
+Icon = ""
